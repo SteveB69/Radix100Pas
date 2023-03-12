@@ -29,4 +29,4 @@ The included Win64 Demo program Radix100demo offers a conversion Hex <-> Radix-1
 
 This code is licenced under the BSD 3.0 licence and comes without any warrenty. Please let me know when you find an error. The code has been tested against the examples of the Texas Instruments Editor/Assembler Manual Page 279 and other examples, but errors may still occur.
 
-!(https://github.com/SteveB69/Radix100Pas/blob/main/Radix100demo.png)
+![screenshot](https://github.com/SteveB69/Radix100Pas/blob/main/Radix100demo.png?raw=true)

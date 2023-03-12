@@ -1,0 +1,148 @@
+object FormRadix100demo: TFormRadix100demo
+  Left = 438
+  Height = 416
+  Top = 174
+  Width = 686
+  Caption = 'Radix-100 Demo'
+  ClientHeight = 416
+  ClientWidth = 686
+  DesignTimePPI = 144
+  LCLVersion = '2.2.4.0'
+  object GroupBox1: TGroupBox
+    Left = 32
+    Height = 144
+    Top = 32
+    Width = 624
+    Caption = 'Hex to Float'
+    ClientHeight = 114
+    ClientWidth = 620
+    TabOrder = 0
+    object edHex: TEdit
+      Left = 32
+      Height = 33
+      Top = 16
+      Width = 168
+      TabOrder = 0
+      TextHint = 'Hex String'
+    end
+    object BitBtn1: TBitBtn
+      Left = 216
+      Height = 37
+      Top = 12
+      Width = 41
+      Kind = bkOK
+      ModalResult = 1
+      OnClick = BitBtn1Click
+      TabOrder = 1
+    end
+    object edHexRes: TEdit
+      Left = 280
+      Height = 33
+      Top = 16
+      Width = 306
+      ReadOnly = True
+      TabOrder = 2
+      TextHint = 'Floaring Point Result'
+    end
+    object edFloat: TEdit
+      Left = 32
+      Height = 33
+      Top = 68
+      Width = 168
+      TabOrder = 3
+      TextHint = 'Float Number'
+    end
+    object BitBtn2: TBitBtn
+      Left = 216
+      Height = 37
+      Top = 64
+      Width = 41
+      Kind = bkOK
+      ModalResult = 1
+      OnClick = BitBtn2Click
+      TabOrder = 4
+    end
+    object edFloatRes: TEdit
+      Left = 280
+      Height = 33
+      Top = 68
+      Width = 306
+      ReadOnly = True
+      TabOrder = 5
+      TextHint = 'Hex Result'
+    end
+  end
+  object GroupBox2: TGroupBox
+    Left = 32
+    Height = 152
+    Top = 224
+    Width = 624
+    Caption = 'Printable / internal Radix-100'
+    ClientHeight = 122
+    ClientWidth = 620
+    TabOrder = 1
+    object edHexD: TEdit
+      Left = 32
+      Height = 33
+      Top = 16
+      Width = 168
+      TabOrder = 0
+      TextHint = 'Hex String'
+    end
+    object BitBtn3: TBitBtn
+      Left = 216
+      Height = 37
+      Top = 12
+      Width = 41
+      Kind = bkOK
+      ModalResult = 1
+      OnClick = BitBtn3Click
+      TabOrder = 1
+    end
+    object edDisp: TEdit
+      Left = 280
+      Height = 33
+      Top = 16
+      Width = 306
+      ReadOnly = True
+      TabOrder = 2
+      TextHint = 'Floaring Point Result'
+    end
+    object edFloatP: TEdit
+      Left = 32
+      Height = 33
+      Top = 68
+      Width = 168
+      TabOrder = 3
+      TextHint = 'Float Number'
+    end
+    object BitBtn4: TBitBtn
+      Left = 216
+      Height = 37
+      Top = 64
+      Width = 41
+      Default = True
+      Kind = bkOK
+      ModalResult = 1
+      OnClick = BitBtn4Click
+      TabOrder = 4
+    end
+    object edFloatResP: TEdit
+      Left = 280
+      Height = 33
+      Top = 68
+      Width = 306
+      ReadOnly = True
+      TabOrder = 5
+      TextHint = 'Hex Result'
+    end
+  end
+  object StaticText1: TStaticText
+    Left = 216
+    Height = 26
+    Top = 384
+    Width = 274
+    Caption = 'Radix-100 demo by Stefan Bauch'
+    TabOrder = 2
+  end
+end

@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="12"/>
+    <BuildModes Active="Default"/>
+    <Units>
+      <Unit>
+        <Filename Value="Radix100demo.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <WindowIndex Value="-1"/>
+        <TopLine Value="-1"/>
+        <CursorPos X="-1" Y="-1"/>
+        <UsageCount Value="27"/>
+      </Unit>
+      <Unit>
+        <Filename Value="uradix100demo.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="FormRadix100demo"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="uRadix100demo"/>
+        <IsVisibleTab Value="True"/>
+        <TopLine Value="60"/>
+        <CursorPos Y="94"/>
+        <UsageCount Value="27"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="uradix100.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="uRadix100"/>
+        <EditorIndex Value="1"/>
+        <CursorPos Y="11"/>
+        <UsageCount Value="27"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="C:\lazarus\lcl\include\control.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="2939"/>
+        <CursorPos Y="2961"/>
+        <UsageCount Value="9"/>
+      </Unit>
+      <Unit>
+        <Filename Value="C:\lazarus\lcl\include\buttoncontrol.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="35"/>
+        <CursorPos Y="56"/>
+        <UsageCount Value="9"/>
+      </Unit>
+    </Units>
+    <JumpHistory HistoryIndex="29">
+      <Position>
+        <Filename Value="uradix100.pas"/>
+        <Caret Line="190" TopLine="167"/>
+      </Position>
+      <Position>
+        <Filename Value="uradix100.pas"/>
+        <Caret Line="204" TopLine="167"/>
+      </Position>
+      <Position>
+        <Filename Value="uradix100.pas"/>
+        <Caret Line="190" TopLine="167"/>
+      </Position>
+      <Position>
+        <Filename Value="uradix100.pas"/>
+        <Caret Line="204" TopLine="167"/>
+      </Position>
+      <Position>
+        <Filename Value="uradix100.pas"/>
+        <Caret Line="190" TopLine="167"/>
+      </Position>
+      <Position>
+        <Filename Value="uradix100.pas"/>
+        <Caret Line="192" TopLine="167"/>
+      </Position>
+      <Position>
+        <Filename Value="uradix100.pas"/>
+        <Caret Line="194" TopLine="167"/>
+      </Position>
+      <Position>
+        <Filename Value="uradix100.pas"/>
+        <Caret Line="195" TopLine="167"/>
+      </Position>
+      <Position>
+        <Filename Value="uradix100.pas"/>
+        <Caret Line="196" TopLine="167"/>
+      </Position>
+      <Position>
+        <Filename Value="uradix100.pas"/>
+        <Caret Line="203" TopLine="167"/>
+      </Position>
+      <Position>
+        <Filename Value="uradix100.pas"/>
+        <Caret Line="192" Column="99" TopLine="166"/>
+      </Position>
+      <Position>
+        <Filename Value="uradix100.pas"/>
+        <Caret Line="200" Column="67" TopLine="172"/>
+      </Position>
+      <Position>
+        <Filename Value="uradix100.pas"/>
+        <Caret Line="134" Column="54" TopLine="116"/>
+      </Position>
+      <Position>
+        <Filename Value="uradix100.pas"/>
+        <Caret Line="159" TopLine="134"/>
+      </Position>
+      <Position>
+        <Filename Value="uradix100.pas"/>
+        <Caret Line="161" TopLine="134"/>
+      </Position>
+      <Position>
+        <Filename Value="uradix100.pas"/>
+        <Caret Line="164" TopLine="134"/>
+      </Position>
+      <Position>
+        <Filename Value="uradix100.pas"/>
+        <Caret Line="168" TopLine="134"/>
+      </Position>
+      <Position>
+        <Filename Value="uradix100.pas"/>
+        <Caret Line="169" TopLine="138"/>
+      </Position>
+      <Position>
+        <Filename Value="uradix100.pas"/>
+        <Caret Line="171" TopLine="138"/>
+      </Position>
+      <Position>
+        <Filename Value="uradix100.pas"/>
+        <Caret Line="172" TopLine="138"/>
+      </Position>
+      <Position>
+        <Filename Value="uradix100.pas"/>
+        <Caret Line="173" TopLine="139"/>
+      </Position>
+      <Position>
+        <Filename Value="uradix100.pas"/>
+        <Caret Line="171" TopLine="139"/>
+      </Position>
+      <Position>
+        <Filename Value="uradix100.pas"/>
+        <Caret Line="172" TopLine="139"/>
+      </Position>
+      <Position>
+        <Filename Value="uradix100.pas"/>
+        <Caret Line="173" TopLine="139"/>
+      </Position>
+      <Position>
+        <Filename Value="uradix100.pas"/>
+        <Caret Line="159" TopLine="142"/>
+      </Position>
+      <Position>
+        <Filename Value="uradix100.pas"/>
+        <Caret Line="178" Column="16" TopLine="143"/>
+      </Position>
+      <Position>
+        <Filename Value="uradix100.pas"/>
+        <Caret Line="176" Column="51" TopLine="156"/>
+      </Position>
+      <Position>
+        <Filename Value="uradix100.pas"/>
+        <Caret Line="123" Column="37" TopLine="116"/>
+      </Position>
+      <Position>
+        <Filename Value="uradix100.pas"/>
+        <Caret Line="106" Column="12" TopLine="95"/>
+      </Position>
+      <Position>
+        <Filename Value="uradix100demo.pas"/>
+        <Caret Line="93" TopLine="59"/>
+      </Position>
+    </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes ActiveMode=""/>
+    </RunParams>
+  </ProjectSession>
+</CONFIG>

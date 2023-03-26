@@ -11,8 +11,12 @@ The unit uRadix100.pas pay be used with Free Pascal and Lazarus, or any other mo
 It provides the following functions:
 
 * **function IsRadix100(r:TRadix100):boolean;**    // checks if **r** is a valid Radix-100 number
+* **function IsRadix100(S:ShortString):boolean;**    // checks if **s** (8 byte, no Hex)is a valid Radix-100 number
+* **function IsPrintableRadix100(r:TRadix100):boolean;**    // checks if **r** is a also printable (ASCII > 32) and might not be a Radix-100
 * **function HexToRadix100(h:String):TRadix100;**    // reads a hex-string into the Radix-100 format
 * **function Radix100ToHex(r:TRadix100):string;**    // converts the encoded Radix-100 into a hex string
+* **function StringToRadix100(s:ShortString):TRadix100;**    // reads an eight character string into the Radix-100 format
+* **function Radix100ToString(r:TRadix100):ShortString;**    // converts the encoded Radix-100 into an eight character string
 * **function Radix100ToFloat(r:TRadix100):Extended;**   // converts a Radix-100 value to Pascal *Extended* 
 * **function FloatToRadix100(f:Extended):TRadix100;**  // converts a Pascal *Extended* value to Radix-100
 * **function Radix100ToDisplay(r:TRadix100):String;**   // converts a Radix-100 value into a readable scientific notation

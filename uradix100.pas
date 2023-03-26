@@ -10,8 +10,12 @@ uses
 type TRadix100 = array[0..7] of byte;
 
 function IsRadix100(r:TRadix100):boolean;
+function IsRadix100(s: ShortString):boolean;
+function IsPrintableRadix100(r:TRadix100):boolean;
 function HexToRadix100(h:String):TRadix100;
 function Radix100ToHex(r:TRadix100):string;
+function StringToRadix100(s: ShortString): TRadix100;
+function Radix100ToString(r:TRadix100):ShortString;
 function FloatToRadix100(f:Extended):TRadix100;
 function Radix100ToFloat(r:TRadix100):Extended;
 function Radix100ToDisplay(r:TRadix100):String;
@@ -30,6 +34,7 @@ begin
   Result := pos(c,'123456789ABCDEF');
 end;
 
+
 function IsRadix100(r: TRadix100): boolean;
 var lw : LongWord;
     i  : integer;
@@ -47,6 +52,46 @@ begin
   Result := valid;
 end;
 
+
+function IsRadix100(s: ShortString): boolean;
+var r : TRadix100;
+    i : integer;
+begin
+  Initialize(r);
+  for i:=0 to min(7,length(s)-1) do r[i]:=ord(s[i+1]);
+  Result := IsRadix100(r);
+end;
+
+
+function IsPrintableRadix100(r:TRadix100):boolean;
+var b : boolean;
+    i : integer;
+begin
+  b:=true;
+  for i:=0 to 7 do if r[i]<32 then b:=false;
+  Result := b;
+end;
+
+
+function StringToRadix100(s: ShortString): TRadix100;
+var r : TRadix100;
+    i : integer;
+begin
+  Initialize(r);
+  for i:=0 to min(7,length(s)-1) do r[i]:=ord(s[i+1]);
+  Result := r;
+end;
+
+function Radix100ToString(r:TRadix100):ShortString;
+var s : ShortString;
+    i : integer;
+begin
+  s:='';
+  for i:=0 to 7 do s:=s+chr(r[i]);
+  Result := s;
+end;
+
+
 function HexToRadix100(h: String): TRadix100;
 var i:integer;
 begin
@@ -55,6 +100,7 @@ begin
      Result[i]:=NybbleVal(copy(h,i*2+1,1))*16+NybbleVal(copy(h,i*2+2,1));
   end;
 end;
+
 
 function Radix100ToHex(r: TRadix100): string;
 var i : integer;
@@ -97,6 +143,7 @@ begin
   Result := r;
 end;
 
+
 function Radix100ToFloat(r: TRadix100): Extended;
 var negative : boolean;
     expo,i : integer;
@@ -116,6 +163,7 @@ begin
   if negative then Result := -ext * power(100,Expo)
               else Result :=  ext * power(100,Expo);
 end;
+
 
 function Radix100ToDisplay(r: TRadix100): String;
 var negative : boolean;
@@ -143,6 +191,7 @@ begin
   Result := Result + mant + 'E' + IntToStr(Expo);
   if rightstr(Result,2)='E0' then Result:=copy(Result,1,length(Result)-2);
 end;
+
 
 function DisplayToRadix100(s: String): TRadix100;
 var negative : boolean;
